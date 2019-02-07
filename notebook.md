@@ -1,3 +1,12 @@
+# Week 02/01/2019-02/08/2019
+
+- Attended Office Hours
+- Identified Sections for contribution (AWS AuroraDB and AWS DocumentDB)
+- Identified Chapter for contribution (AWS AuroraDB and AWS DocumentDB)
+- Read Chapter on Github as a Rest Service
+- Read Chapter on Open API
+
+
 # Week 01/25/2019-02/01/2019
 
 - Attended Office Hours
