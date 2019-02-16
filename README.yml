@@ -7,13 +7,12 @@ owner:
   semester: sp19
 section:
   - title: AWS DocumentDB
-    keyword: chmod
     url:
     github:
     issue : https://github.com/cloudmesh-community/book/issues/233
   - title: AWS AuroraDB
     url:
-    github:
+    github: https://github.com/cloudmesh-community/book/pull/376
     issue: https://github.com/cloudmesh-community/book/issues/347
 chapter:
   - title: AWS Beanstalk
