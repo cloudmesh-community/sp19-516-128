@@ -1,8 +1,15 @@
+# Week 02/08/2019-02/15/2019
+
+- Started Learning Amazon Aurora DB
+- Worked on Section for Amazon Aurora DB
+- Researched LibCloud
+
+
 # Week 02/01/2019-02/08/2019
 
 - Attended Office Hours
 - Identified Sections for contribution (AWS AuroraDB and AWS DocumentDB)
-- Identified Chapter for contribution (AWS AuroraDB and AWS DocumentDB)
+- Identified Chapter for contribution (AWS Beanstalk)
 - Read Chapter on Github as a Rest Service
 - Read Chapter on Open API
 
