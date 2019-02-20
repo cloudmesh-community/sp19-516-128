@@ -14,6 +14,10 @@ section:
     url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/AmazonAuroraDB.md
     github: https://github.com/cloudmesh-community/book/pull/382
     issue: https://github.com/cloudmesh-community/book/issues/347
+  - title: AWS CloudFormation
+    url:
+    github:
+    issue: https://github.com/cloudmesh-community/book/issues/384
 chapter:
   - title: AWS Beanstalk
     url:
