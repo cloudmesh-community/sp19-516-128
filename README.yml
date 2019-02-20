@@ -11,11 +11,11 @@ section:
     github:
     issue : https://github.com/cloudmesh-community/book/issues/233
   - title: AWS AuroraDB
-    url:
+    url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/AmazonAuroraDB.md
     github: https://github.com/cloudmesh-community/book/pull/382
     issue: https://github.com/cloudmesh-community/book/issues/347
 chapter:
   - title: AWS Beanstalk
     url:
-    github:
+    github: https://github.com/cloudmesh-community/book/pull/383
     issue: https://github.com/cloudmesh-community/book/issues/353
