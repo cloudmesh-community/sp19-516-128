@@ -12,7 +12,7 @@ section:
     issue : https://github.com/cloudmesh-community/book/issues/233
   - title: AWS AuroraDB
     url:
-    github: https://github.com/cloudmesh-community/book/pull/376
+    github: https://github.com/cloudmesh-community/book/pull/382
     issue: https://github.com/cloudmesh-community/book/issues/347
 chapter:
   - title: AWS Beanstalk
