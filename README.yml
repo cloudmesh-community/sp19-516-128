@@ -10,10 +10,6 @@ section:
     url:
     github:
     issue : https://github.com/cloudmesh-community/book/issues/233
-  - title: AWS AuroraDB
-    url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/AmazonAuroraDB.md
-    github: https://github.com/cloudmesh-community/book/pull/382
-    issue: https://github.com/cloudmesh-community/book/issues/347
   - title: AWS CloudFormation
     url:
     github:
@@ -23,3 +19,7 @@ chapter:
     url:https://github.com/cloudmesh-community/book/blob/master/chapters/in/AmazonElasticBeanstalk.md
     github: https://github.com/cloudmesh-community/book/pull/383
     issue: https://github.com/cloudmesh-community/book/issues/353
+  - title: AWS AuroraDB
+    url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/AmazonAuroraDB.md
+    github: https://github.com/cloudmesh-community/book/pull/382
+    issue: https://github.com/cloudmesh-community/book/issues/347
