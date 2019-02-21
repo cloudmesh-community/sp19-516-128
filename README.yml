@@ -16,7 +16,7 @@ section:
     issue: https://github.com/cloudmesh-community/book/issues/384
 chapter:
   - title: AWS Beanstalk
-    url:https://github.com/cloudmesh-community/book/blob/master/chapters/in/AmazonElasticBeanstalk.md
+    url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/AmazonElasticBeanstalk.md
     github: https://github.com/cloudmesh-community/book/pull/383
     issue: https://github.com/cloudmesh-community/book/issues/353
   - title: AWS AuroraDB
