@@ -1,3 +1,21 @@
+# Week 03/01/2019-03/08/2019
+
+- Studied Boto 3 and LibCloud Integration for AWS S3
+- Studied MapReduce
+
+# Week 02/22/2019-02/01/2019
+
+- Started reasearch on Project
+- Explored AWS S3 and AWS Workdocs services for project
+- Researched on Boto 3 and LibCloud Integration for AWS WorkDocs
+- Researched MongoDB
+
+# Week 02/15/2019-02/22/2019
+
+- Started Learning Amazon Elastic Beanstalk
+- Worked on Section for Amazon Elastic Beanstalk
+- Researched LibCloud
+
 # Week 02/08/2019-02/15/2019
 
 - Started Learning Amazon Aurora DB
