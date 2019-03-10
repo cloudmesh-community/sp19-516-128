@@ -23,6 +23,9 @@ chapter:
     url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/AmazonAuroraDB.md
     github: https://github.com/cloudmesh-community/book/pull/382
     issue: https://github.com/cloudmesh-community/book/issues/347
- comprehension:
+comprehension:
   - title: Libcloud VM
     url: https://github.com/cloudmesh-community/sp19-516-128/blob/master/comprehension/LibCloud_VM_AWS_EC2_Script.py
+project:
+  - title: Cloud service file management with AWS Storage
+    docopt url: https://github.com/cloudmesh-community/sp19-516-128/blob/master/project-code/Docopt_Storage_AWS_S3.py
