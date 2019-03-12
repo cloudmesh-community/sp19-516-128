@@ -1,11 +1,13 @@
 document what a container is
 
+container could be doen with a default?
+
 """
 Usage:
     cms storage [--cloud=<SERVICE>] list containers
     cms storage [--cloud=<SERVICE>] create container CONTAINER
     cms storage [--cloud=<SERVICE>] delete container CONTAINER
-    cms storage [--cloud=<SERVICE>] putfile CONTAINER FILESOURCE FILETARGET
+    cms storage [--cloud=<SERVICE>] put file CONTAINER FILESOURCE FILETARGET
     cms storage [--cloud=<SERVICE>] delete file CONTAINER FILENAME
     cms storage [--cloud=<SERVICE>] get file CONTAINER FILENAME
     cms storage [--cloud=<SERVICE>] list container files CONTAINER
