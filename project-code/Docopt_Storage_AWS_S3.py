@@ -1,13 +1,15 @@
+document what a container is
+
 """
 Usage:
-    Docopt_Storage_AWS_S3.py storage [--cloud=<SERVICE>] listcontainers
-    Docopt_Storage_AWS_S3.py storage [--cloud=<SERVICE>] createcontainer CONTAINER
-    Docopt_Storage_AWS_S3.py storage [--cloud=<SERVICE>] deletecontainer CONTAINER
-    Docopt_Storage_AWS_S3.py storage [--cloud=<SERVICE>] putfile CONTAINER FILESOURCE FILETARGET
-    Docopt_Storage_AWS_S3.py storage [--cloud=<SERVICE>] deletefile CONTAINER FILENAME
-    Docopt_Storage_AWS_S3.py storage [--cloud=<SERVICE>] getfile CONTAINER FILENAME
-    Docopt_Storage_AWS_S3.py storage [--cloud=<SERVICE>] listcontainerfiles CONTAINER
-    Docopt_Storage_AWS_S3.py storage [--cloud=<SERVICE>] listfileinfo CONTAINER FILENAME ...
+    cms storage [--cloud=<SERVICE>] list containers
+    cms storage [--cloud=<SERVICE>] create container CONTAINER
+    cms storage [--cloud=<SERVICE>] delete container CONTAINER
+    cms storage [--cloud=<SERVICE>] putfile CONTAINER FILESOURCE FILETARGET
+    cms storage [--cloud=<SERVICE>] delete file CONTAINER FILENAME
+    cms storage [--cloud=<SERVICE>] get file CONTAINER FILENAME
+    cms storage [--cloud=<SERVICE>] list container files CONTAINER
+    cms storage [--cloud=<SERVICE>] list file info CONTAINER FILENAME ...
 
 Manage file storage on AWS S3 buckets and perform operations like put, get, delete on the files.
 
@@ -48,8 +50,11 @@ Description:
     storage listfileinfo CONTAINER [FILENAME] ...
         returns properties of the specified files in the container on the cloud storage
 
+
 Examples:
-    python Docopt_Storage_AWS_S3.py storage listcontainers
+replace python Docopt_Storage_AWS_S3.py  with cms
+
+   python Docopt_Storage_AWS_S3.py storage listcontainers
 
     python Docopt_Storage_AWS_S3.py storage listcontainers --cloud=aws
 
