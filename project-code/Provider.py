@@ -140,7 +140,7 @@ class Provider(object):
 
         if len(objs) > 0:
             for obj in objs:
-                if self.splitToList()[-1] == fileName:
+                if self.splitToList(obj.key)[-1] == fileName:
                     print(obj.key)
         else:
             print("File not found")
