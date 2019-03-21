@@ -7,6 +7,12 @@ from pprint import pprint
 from cloudmesh.common.console import Console
 
 
+#
+# SOURCE CAN BE IN MOST CASES FILE OR DIRECTORY
+# dependent on what you specify a action on a file or dir is executed
+# see the command ls, wget, rsync in linus
+#
+
 # noinspection PyBroadException
 class StorageCommand(PluginCommand):
 
@@ -16,14 +22,12 @@ class StorageCommand(PluginCommand):
         """
         ::
         Usage:
-            storage [--storage=<SERVICE>] create dir DIRNAME
-            storage [--storage=<SERVICE>] delete dir DIRNAME
-            storage [--storage=<SERVICE>] list dir files [DIRNAME]
-            storage [--storage=<SERVICE>] put file SOURCEFILENAME SOURCEDIR DESTFILENAME DESTDIR
-            storage [--storage=<SERVICE>] get file SOURCEFILENAME SOURCEDIR DESTFILENAME DESTDIR
-            storage [--storage=<SERVICE>] delete file FILENAME DIRNAME
-            storage [--storage=<SERVICE>] search file FILENAME [DIRNAME]
-            storage [--storage=<SERVICE>] list file info FILENAME DIRNAME
+            storage [--storage=<SERVICE>] create dir DIRECTORY
+            storage [--storage=<SERVICE>] list SOURCE
+            storage [--storage=<SERVICE>] put SOURCE DESTINATION
+            storage [--storage=<SERVICE>] get SOURCE DESTINATION
+            storage [--storage=<SERVICE>] delete SOURCE
+            storage [--storage=<SERVICE>] search SOURCE [DIRECTORY]
 
         Manage file storage on AWS S3 buckets and perform operations like put, get, delete on the files.
 
