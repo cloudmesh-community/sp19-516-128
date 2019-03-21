@@ -96,27 +96,27 @@ class StorageCommand(PluginCommand):
             Console.error("storage service not defined")
 
 
-        if arguments.create and arguments.dir == True:
+        if arguments.create == True and arguments.dir == True:
             m.createDir(service, arguments.DIRNAME)
-        elif arguments.delete and arguments.dir == True:
+        elif arguments.delete == True and arguments.dir == True:
             m.deleteDir(service, arguments.DIRNAME)
-        elif arguments.list and arguments.dir == True and arguments.files == True:
+        elif arguments.list == True and arguments.dir == True and arguments.files == True:
             if arguments.DIRNAME is not None:
                 m.listDirFiles(service, arguments.DIRNAME)
             else:
                 m.listDirFiles(service, '')
-        elif arguments.put and arguments.file == True:
+        elif arguments.put == True and arguments.file == True:
             m.putFile(service, arguments.SOURCEFILENAME, arguments.SOURCEDIR, arguments.DESTFILENAME, arguments.DESTDIR)
-        elif arguments.get and arguments.file == True:
+        elif arguments.get == True and arguments.file == True:
             m.getFile(service, arguments.SOURCEFILENAME, arguments.SOURCEDIR, arguments.DESTFILENAME, arguments.DESTDIR)
         elif arguments.delete and arguments.file == True:
             m.deleteFile(service, arguments.FILENAME, arguments.DIRNAME)
-        elif arguments.search and arguments.file == True:
+        elif arguments.search == True and arguments.file == True:
             if arguments.DIRNAME is not None:
                 m.searchFile(service, arguments.FILENAME, arguments.DIRNAME)
             else:
                 m.searchFile(service, arguments.FILENAME, '')
-        elif arguments.list and arguments.file == True and arguments.info == True:
-            m.getFile(service, arguments.FILENAME, arguments.DIRNAME)
+        elif arguments.list == True and arguments.file == True and arguments.info == True:
+            m.listFileInfo(service, arguments.FILENAME, arguments.DIRNAME)
         else:
             print("Command not recognized.")
