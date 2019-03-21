@@ -10,8 +10,15 @@ from cloudmesh.common.console import Console
 #
 # SOURCE CAN BE IN MOST CASES FILE OR DIRECTORY
 # dependent on what you specify a action on a file or dir is executed
-# see the command ls, wget, rsync in linus
+# see the command ls, cp, wget, rsync in linus
 #
+
+#
+#  /a/1.txt
+#  /a/b/2.txt
+#
+#  storage search /a 2.txt --recursive -> /a/b/2.txt 
+#  storage search /a 2.txt  -> file not found 
 
 # noinspection PyBroadException
 class StorageCommand(PluginCommand):
@@ -23,11 +30,11 @@ class StorageCommand(PluginCommand):
         ::
         Usage:
             storage [--storage=<SERVICE>] create dir DIRECTORY
-            storage [--storage=<SERVICE>] list SOURCE
-            storage [--storage=<SERVICE>] put SOURCE DESTINATION
-            storage [--storage=<SERVICE>] get SOURCE DESTINATION
-            storage [--storage=<SERVICE>] delete SOURCE
-            storage [--storage=<SERVICE>] search SOURCE [DIRECTORY]
+            storage [--storage=<SERVICE>] list SOURCE [--recursive]
+            storage [--storage=<SERVICE>] put SOURCE DESTINATION [--recursive]
+            storage [--storage=<SERVICE>] get SOURCE DESTINATION [--recursive]
+            storage [--storage=<SERVICE>] delete SOURCE 
+            storage [--storage=<SERVICE>] search DIRECTORY FILENAME [--recursive]
 
         Manage file storage on AWS S3 buckets and perform operations like put, get, delete on the files.
 
