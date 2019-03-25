@@ -5,15 +5,6 @@ owner:
   hid: sp19-516-128
   community: e516
   semester: sp19
-section:
-  - title: AWS DocumentDB
-    url:
-    github:
-    issue : https://github.com/cloudmesh-community/book/issues/233
-  - title: AWS CloudFormation
-    url:
-    github:
-    issue: https://github.com/cloudmesh-community/book/issues/384
 chapter:
   - title: AWS Beanstalk
     url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/aws-elasticbeanstalk.md
