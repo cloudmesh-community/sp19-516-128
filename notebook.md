@@ -1,7 +1,22 @@
+# Week 03/15/2019-03/22/2019
+
+- Reviewed Storage Command with Gregor
+- Studied Hadoop and Spark
+- Studied containers
+
+# Week 03/08/2019-03/15/2019
+
+- Created script to Manage VM using LibCLoud 
+- Studied Mongo DB and worked on installation
+- Integrated Storage command with CMS.
+- Created Manager and Provider for Storage command using AWS
+- Discussed Storage Docopt with Mallik and Keli
+
 # Week 03/01/2019-03/08/2019
 
 - Studied Boto 3 and LibCloud Integration for AWS S3
 - Studied MapReduce
+- Created DocOpt for Storage command using AWS
 
 # Week 02/22/2019-02/01/2019
 
