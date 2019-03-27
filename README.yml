@@ -5,10 +5,11 @@ owner:
   hid: sp19-516-128
   community: e516
   semester: sp19
-chapter:
+section:
   - title: AWS Beanstalk
     url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/aws-elasticbeanstalk.md
     issue: https://github.com/cloudmesh-community/book/issues/353
+chapter:
   - title: AWS AuroraDB
     url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/aws-auroradb.md
     issue: https://github.com/cloudmesh-community/book/issues/347
