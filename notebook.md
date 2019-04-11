@@ -1,3 +1,19 @@
+# Week 04/05/2019-03/12/2019
+
+- Testing and bug fixing of STorage commands
+- INtegration of commands update_dict for MongoDB integration
+- Studied Kunernetes
+
+# Week 03/29/2019-04/05/2019
+
+- Rework on Stoarge.py to align with new structure suggested by Gregor
+- Studied Docker
+
+# Week 03/22/2019-03/29/2019
+
+- Worked on Storage COmmand based on Gregor's comments
+- Studied Docker
+
 # Week 03/15/2019-03/22/2019
 
 - Reviewed Storage Command with Gregor
