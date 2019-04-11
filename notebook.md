@@ -1,7 +1,7 @@
 # Week 04/05/2019-03/12/2019
 
 - Testing and bug fixing of STorage commands
-- INtegration of commands update_dict for MongoDB integration
+- Integration of storage commands update_dict for MongoDB integration
 - Studied Kunernetes
 
 # Week 03/29/2019-04/05/2019
