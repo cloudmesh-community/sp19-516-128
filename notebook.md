@@ -1,6 +1,13 @@
-# Week 04/05/2019-03/12/2019
+# Week 04/12/2019-04/19/2019
 
-- Testing and bug fixing of STorage commands
+- Worked on documentation for Cloudmesh Storage Command
+- Made some bug fixes in Storage provider  
+- Studied Kunernetes
+- Statred exploring Go
+
+# Week 04/05/2019-04/12/2019
+
+- Testing and bug fixing of Storage commands
 - Integration of storage commands update_dict for MongoDB integration
 - Studied Kunernetes
 
