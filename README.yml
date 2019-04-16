@@ -9,7 +9,6 @@ chapter:
   - title: AWS Beanstalk
     url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/aws-elasticbeanstalk.md
     issue: https://github.com/cloudmesh-community/book/issues/353
-chapter:
   - title: AWS AuroraDB
     url: https://github.com/cloudmesh-community/book/blob/master/chapters/in/aws-auroradb.md
     issue: https://github.com/cloudmesh-community/book/issues/347
@@ -18,5 +17,4 @@ comprehension:
     url: https://github.com/cloudmesh-community/sp19-516-128/blob/master/comprehension/LibCloud_VM_AWS_EC2_Script.py
 project:
   - title: Cloud service file management with AWS Storage
-    code url : https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage/provider/awss3
-    docopt url: https://github.com/cloudmesh-community/sp19-516-128/blob/master/project-code/Docopt_Storage_AWS_S3.py
+    code: https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage/provider/awss3
