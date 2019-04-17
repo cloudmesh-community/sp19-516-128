@@ -3,7 +3,7 @@
 - Worked on documentation for Cloudmesh Storage Command
 - Made some bug fixes in Storage provider  
 - Studied Kunernetes
-- Statred exploring Go
+- Started exploring Go
 
 # Week 04/05/2019-04/12/2019
 
