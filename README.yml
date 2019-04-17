@@ -18,3 +18,4 @@ comprehension:
 project:
   - title: Cloud service file management with AWS Storage
     code: https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage/provider/awss3
+    url: https://github.com/cloudmesh/cloudmesh-storage/blob/master/README.md
