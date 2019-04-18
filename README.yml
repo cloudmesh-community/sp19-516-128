@@ -17,7 +17,6 @@ comprehension:
     url: https://github.com/cloudmesh-community/sp19-516-128/blob/master/comprehension/LibCloud_VM_AWS_EC2_Script.py
 project:
   - title: Cloud service file management with AWS Storage
-    code: https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage/provider/awss3
+    code: https://github.com/cloudmesh/cloudmesh-storage/blob/master/cloudmesh/storage/provider/awss3/Provider.py
     url: https://github.com/cloudmesh/cloudmesh-storage/blob/master/README.md
-    pytest:
-      - TBD
+    pytest: https://github.com/cloudmesh/cloudmesh-storage/blob/master/tests/test_storage_awss3.py
