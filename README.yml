@@ -19,4 +19,5 @@ project:
   - title: Cloud service file management with AWS Storage
     code: https://github.com/cloudmesh/cloudmesh-storage/blob/master/cloudmesh/storage/provider/awss3/Provider.py
     url: https://github.com/cloudmesh/cloudmesh-storage/blob/master/README.md
-    pytest: https://github.com/cloudmesh/cloudmesh-storage/blob/master/tests/test_storage_awss3.py
+    pytest: 
+    - https://github.com/cloudmesh/cloudmesh-storage/blob/master/tests/test_storage_awss3.py
