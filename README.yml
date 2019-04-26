@@ -18,7 +18,9 @@ comprehension:
 project:
   - title: Cloud service file management with AWS Storage
     code: https://github.com/cloudmesh/cloudmesh-storage/blob/master/cloudmesh/storage/provider/awss3/Provider.py
-    url: https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/README-storage.md
+    url: 
+    - https://github.com/cloudmesh/cloudmesh-manual/blob/master/docs-source/source/README-storage.md
+    - https://github.com/cloudmesh/cloudmesh-storage/blob/master/deprecated/docs-source/source/README-storage-awss3.md
     openapi: https://github.com/cloudmesh/cloudmesh-storage/tree/master/cloudmesh/storage/spec
     pytest: 
     - https://github.com/cloudmesh/cloudmesh-storage/blob/master/tests/test_storage_awss3.py
