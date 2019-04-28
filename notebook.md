@@ -1,3 +1,13 @@
+# Week 04/19/2019-04/26/2019
+
+- Worked on Pytests and Benchmarks for Storage Command
+
+# Week 04/19/2019-04/26/2019
+
+- Worked on documentation for Cloudmesh Storage Command
+- Worked on Pytests and Benchmarks for Storage Command
+- Studied Go
+
 # Week 04/12/2019-04/19/2019
 
 - Worked on documentation for Cloudmesh Storage Command
